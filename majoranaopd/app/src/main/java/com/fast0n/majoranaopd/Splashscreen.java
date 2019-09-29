@@ -10,9 +10,6 @@ import android.view.WindowManager;
 
 public class Splashscreen extends Activity {
 
-    //Set waktu lama splashscreen
-    private static int splashInterval = 2500;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,26 +19,10 @@ public class Splashscreen extends Activity {
 
         setContentView(R.layout.splashscreen);
 
-        new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(() -> {
+            startActivity(new Intent(Splashscreen.this, DeviceListActivity.class));
+            finish();
+        }, 2500);
 
-
-            @Override
-            public void run() {
-                // TODO Auto-generated method stub
-                Intent i = new Intent(Splashscreen.this, DeviceList.class);
-                startActivity(i);
-
-
-                //jeda selesai Splashscreen
-                this.finish();
-            }
-
-            private void finish() {
-                // TODO Auto-generated method stub
-
-            }
-        }, splashInterval);
-
-    };
-
+    }
 }

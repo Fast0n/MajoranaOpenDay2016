@@ -6,8 +6,8 @@
     <string name="error2">"Connessione fallita o si tratta di un Bluetooth SPP. Riprova.</string>
     <string name="notavailable">Dispositivo bluetooth non disponibile</string>
     <string name="uncoupled">Dispositivi bluetooth non accoppiati</string>
-    <string name="plasewait">Attendere prego...</string>
-    <string name="connection">Collegamento...</string>
+    <string name="plasewait">Attendere prego…</string>
+    <string name="connection">Collegamento…</string>
     <string name="devicec">Dispositivi accoppiati</string>
     <string name="devicec1">Aggiorna lista dispositivi accoppiati</string>
     <string name="led">Led</string>
@@ -18,8 +18,6 @@
     <string name="connected">Collegato</string>
     <string name="about">Info</string>
     <string name="back">Per chiudere l\'applicazione premere due volte su back</string>
-    <string name="start">Marcia</string>
-    <string name="stop">Arresto</string>
-    <string name="ok">Ok</string>
 
+    <string name="deviceNS">Dispositivo non supportato</string>
 </resources>

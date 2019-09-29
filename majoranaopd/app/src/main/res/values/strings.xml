@@ -6,8 +6,8 @@
     <string name="error2">"Connection failed or they treat a Bluetooth SPP. Please try again.</string>
     <string name="notavailable">Bluetooth device not available</string>
     <string name="uncoupled">Bluetooth devices unpaired</string>
-    <string name="plasewait">Please wait...</string>
-    <string name="connection">Connection...</string>
+    <string name="plasewait">Please wait…</string>
+    <string name="connection">Connection…</string>
     <string name="devicec">Paired devices</string>
     <string name="devicec1">Refresh list paired devices</string>
     <string name="led">Led</string>
@@ -18,9 +18,8 @@
     <string name="connected">Connected</string>
     <string name="about">About</string>
     <string name="back">To close the application press twice on back</string>
-    <string name="start">Start</string>
-    <string name="stop">Stop</string>
-    <string name="ok">Ok</string>
+
+    <string name="deviceNS">Device not support</string>
 
 </resources>
 
